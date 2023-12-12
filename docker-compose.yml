@@ -26,7 +26,7 @@ services:
       POSTFIXADMIN_DB_NAME: postfixadmin
       POSTFIXADMIN_DB_PASSWORD: postfixadmin
     volumes:
-      - ./config.inc.php/config.inc.php:/var/www/html/config.inc.php
+      - ./config.inc.php:/var/www/html/config.inc.php
 
   postfix:
     image: catatnight/postfix
